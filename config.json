@@ -3,10 +3,11 @@
   "validar_digito_verificador": true,
   "longitud_numero_control": 8,
   "carreras": [
-    "Ing. en Sistemas Computacionales",
-    "Ing. Industrial",
+    "Contador Público",
+    "Ing. Civil",
     "Ing. en Gestión Empresarial",
-    "Otra"
+    "Ing. en Sistemas Computacionales",
+    "Ing. Industrial"
   ],
   "recordatorio_cada_dias": 7,
   "hora_recordatorio": "09:00",
