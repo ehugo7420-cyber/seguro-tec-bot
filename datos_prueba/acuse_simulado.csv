@@ -1,0 +1,4 @@
+nss,resultado,motivo
+12345678903,alta,
+23456789017,alta,
+34567890123,rechazada,Datos del NSS no coinciden con la CURP (motivo inventado)

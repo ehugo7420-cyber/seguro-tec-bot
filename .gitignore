@@ -1,0 +1,6 @@
+.env
+seguro.db
+salidas/
+temp/
+__pycache__/
+*.pyc

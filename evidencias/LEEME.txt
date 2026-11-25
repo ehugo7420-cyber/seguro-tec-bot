@@ -1,0 +1,2 @@
+Esta carpeta es para evidencias REALES: encuesta, mediciones de antes y después, prueba de usabilidad (SUS),
+defectos encontrados y horas de trabajo. Solo se llena con datos que tú midas. Lo que no se midió se marca como "estimado".

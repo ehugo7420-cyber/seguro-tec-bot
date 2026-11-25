@@ -1,0 +1,46 @@
+test_P15_guarda_registro_como_pendiente (__main__.PruebasBaseDeDatos.test_P15_guarda_registro_como_pendiente) ... ok
+test_P16_nss_repetido_con_otro_control_se_rechaza (__main__.PruebasBaseDeDatos.test_P16_nss_repetido_con_otro_control_se_rechaza) ... ok
+test_P17_control_de_otra_cuenta_se_rechaza (__main__.PruebasBaseDeDatos.test_P17_control_de_otra_cuenta_se_rechaza) ... ok
+test_P18_pendiente_se_puede_corregir (__main__.PruebasBaseDeDatos.test_P18_pendiente_se_puede_corregir) ... ok
+test_P19_lote_incluye_pendientes_y_no_se_repite (__main__.PruebasBaseDeDatos.test_P19_lote_incluye_pendientes_y_no_se_repite) ... ok
+test_P20_en_lote_no_se_puede_cambiar (__main__.PruebasBaseDeDatos.test_P20_en_lote_no_se_puede_cambiar) ... ok
+test_P21_acuse_actualiza_estados (__main__.PruebasBaseDeDatos.test_P21_acuse_actualiza_estados) ... ok
+test_P22_acuse_con_resultado_desconocido_se_reporta (__main__.PruebasBaseDeDatos.test_P22_acuse_con_resultado_desconocido_se_reporta) ... ok
+test_P23_acuse_con_punto_y_coma_de_excel (__main__.PruebasBaseDeDatos.test_P23_acuse_con_punto_y_coma_de_excel) ... ok
+test_P24_acuse_de_nss_inexistente_no_hace_nada (__main__.PruebasBaseDeDatos.test_P24_acuse_de_nss_inexistente_no_hace_nada) ... ok
+test_P25_recordatorio_solo_a_quien_no_ha_entregado (__main__.PruebasBaseDeDatos.test_P25_recordatorio_solo_a_quien_no_ha_entregado) ... ok
+test_P26_recordatorio_respeta_el_intervalo (__main__.PruebasBaseDeDatos.test_P26_recordatorio_respeta_el_intervalo) ... ok
+test_P27_tablero_cuenta_por_estado_y_carrera (__main__.PruebasBaseDeDatos.test_P27_tablero_cuenta_por_estado_y_carrera) ... ok
+test_P01_nss_valido (__main__.PruebasNSS.test_P01_nss_valido) ... ok
+test_P02_rechaza_10_digitos (__main__.PruebasNSS.test_P02_rechaza_10_digitos) ... ok
+test_P03_rechaza_letras (__main__.PruebasNSS.test_P03_rechaza_letras) ... ok
+test_P04_rechaza_digito_verificador_incorrecto (__main__.PruebasNSS.test_P04_rechaza_digito_verificador_incorrecto) ... ok
+test_P05_digito_verificador_se_puede_apagar (__main__.PruebasNSS.test_P05_digito_verificador_se_puede_apagar) ... ok
+test_P06_extrae_nss_con_etiqueta (__main__.PruebasNSS.test_P06_extrae_nss_con_etiqueta) ... ok
+test_P07_extrae_nss_con_espacios_y_guiones (__main__.PruebasNSS.test_P07_extrae_nss_con_espacios_y_guiones) ... ok
+test_P08_dos_numeros_de_11_digitos_sin_etiqueta_es_ambiguo (__main__.PruebasNSS.test_P08_dos_numeros_de_11_digitos_sin_etiqueta_es_ambiguo) ... ok
+test_P09_no_lee_un_numero_de_12_digitos (__main__.PruebasNSS.test_P09_no_lee_un_numero_de_12_digitos) ... ok
+test_P10_enmascara_nss (__main__.PruebasNSS.test_P10_enmascara_nss) ... ok
+test_P11_lee_pdf_valido (__main__.PruebasPDF.test_P11_lee_pdf_valido) ... ok
+test_P12_pdf_escaneado_no_tiene_texto (__main__.PruebasPDF.test_P12_pdf_escaneado_no_tiene_texto) ... ok
+test_P13_pdf_sin_nss (__main__.PruebasPDF.test_P13_pdf_sin_nss) ... ok
+test_P14_archivo_que_no_es_pdf (__main__.PruebasPDF.test_P14_archivo_que_no_es_pdf) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.771s
+
+OK
+test_F01_start_registra_al_usuario_y_muestra_menu (__main__.PruebasFlujo.test_F01_start_registra_al_usuario_y_muestra_menu) ... ok
+test_F02_flujo_completo_deja_el_registro_pendiente (__main__.PruebasFlujo.test_F02_flujo_completo_deja_el_registro_pendiente) ... 2026-11-24 22:32:16,858 · INFO · NSS registrado (*******8903) para el control 21010001
+ok
+test_F03_numero_de_control_invalido_se_vuelve_a_pedir (__main__.PruebasFlujo.test_F03_numero_de_control_invalido_se_vuelve_a_pedir) ... ok
+test_F04_nss_con_digito_verificador_malo_no_pide_confirmacion (__main__.PruebasFlujo.test_F04_nss_con_digito_verificador_malo_no_pide_confirmacion) ... ok
+test_F05_comando_de_personal_se_niega_a_un_alumno (__main__.PruebasFlujo.test_F05_comando_de_personal_se_niega_a_un_alumno) ... ok
+test_F06_personal_genera_lote_y_el_acuse_avisa_al_alumno (__main__.PruebasFlujo.test_F06_personal_genera_lote_y_el_acuse_avisa_al_alumno) ... 2026-11-24 22:32:17,085 · INFO · NSS registrado (*******8903) para el control 21010001
+ok
+test_F07_recordatorio_solo_a_quien_no_ha_entregado (__main__.PruebasFlujo.test_F07_recordatorio_solo_a_quien_no_ha_entregado) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.539s
+
+OK

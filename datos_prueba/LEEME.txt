@@ -1,0 +1,11 @@
+DATOS DE PRUEBA INVENTADOS. Nunca uses constancias reales de nadie.
+
+constancia_prueba_1.pdf        NSS 12345678903  (válido)
+constancia_prueba_2.pdf        NSS 23456789017  (válido)
+constancia_prueba_3.pdf        NSS 34567890123  (válido)
+constancia_nss_con_error.pdf    NSS 12345678904  (último dígito mal: el bot lo rechaza)
+constancia_sin_nss.pdf          sin NSS (el bot no encuentra nada)
+constancia_escaneada.pdf        solo imagen (el bot pide escribir el NSS)
+
+acuse_simulado.csv: el NSS 1 y el NSS 2 salen como alta; el NSS 3 sale rechazado.
+Números de control de ejemplo para probar: 21010001, 21010002, 21010003 (inventados).

@@ -1,0 +1,16 @@
+{
+  "nombre_institucion": "Instituto Tecnológico de Matehuala",
+  "validar_digito_verificador": true,
+  "longitud_numero_control": 8,
+  "carreras": [
+    "Ing. en Sistemas Computacionales",
+    "Ing. Industrial",
+    "Ing. en Gestión Empresarial",
+    "Otra"
+  ],
+  "recordatorio_cada_dias": 7,
+  "hora_recordatorio": "09:00",
+  "tamano_maximo_pdf_mb": 5,
+  "enlace_nss": "https://www.gob.mx/afiliatealimss",
+  "enlace_vigencia": "https://serviciosdigitales.imss.gob.mx/gestionAsegurados-web-externo/vigencia"
+}
